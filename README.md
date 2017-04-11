@@ -23,12 +23,12 @@ Requirements:
  
 Building the circuitry
   Steps:
-    1) Tape wires to the two nails
-    2) Place the nails in the pot of your plant about five or six centimetres apart
-    3) Attach the other end of the wire of the first nail to +5V on the Arduino Uno
-    4) Attach the other end of the wire of the second nail to A0 on the Uno and ground that connection with a 10K resistor
-    5) Attach the temperature sensor to +5V, ground, and input A1 on the Uno
-
+   1) Tape wires to the two nails
+   2) Place the nails in the pot of your plant about five or six centimetres apart
+   3) Attach the other end of the wire of the first nail to +5V on the Arduino Uno
+   4) Attach the other end of the wire of the second nail to A0 on the Uno and ground that connection with a 10K resistor
+   5) Attach the temperature sensor to +5V, ground, and input A1 on the Uno
+   
 Calibrating the moisture sensor:
   Each time that the nails are moved or are newly placed, they must be calibrated.
     Steps: 
