@@ -31,15 +31,20 @@ Building the circuitry
    
 Calibrating the moisture sensor:
   Each time that the nails are moved or are newly placed, they must be calibrated.
+  
     Steps: 
    1) details for this process in moistureCalibration.ino
+
+Run third_draft.ino and upload it to your Aruduino
      
 The data:
   The monitored temperature and moisture levels will be recorded in an Excel sheet. The Excel sheet is meant to be constantly running 
   and evaluating your plant. The data is collected and plotted in real time on the sheet. 
   
   Everyday at 17:00 the Excel sheet will email you the graph for that day. The user can then evaluate the graph and determine if their 
-  plant needs to be watered or to change the temperature in the environment. You will have to change the email listed in the code:
+  plant needs to be watered or to change the temperature in the environment. Place the visual basic files into the correct areas in
+  your excel file. You will have to change the email listed in the code:
+  
     Steps:
    1) Module2.vb contains the macro for emailing the code to the user
    2) Change line 25 to your desired email
