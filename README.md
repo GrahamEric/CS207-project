@@ -32,7 +32,7 @@ Building the circuitry
 Calibrating the moisture sensor:
   Each time that the nails are moved or are newly placed, they must be calibrated.
     Steps: 
-    1) details for this process in moistureCalibration.ino
+   1) details for this process in moistureCalibration.ino
      
 The data:
   The monitored temperature and moisture levels will be recorded in an Excel sheet. The Excel sheet is meant to be constantly running 
@@ -41,7 +41,7 @@ The data:
   Everyday at 17:00 the Excel sheet will email you the graph for that day. The user can then evaluate the graph and determine if their 
   plant needs to be watered or to change the temperature in the environment. You will have to change the email listed in the code:
     Steps:
-      1) Module2.vb contains the macro for emailing the code to the user
-      2) Change line 25 to your desired email
+   1) Module2.vb contains the macro for emailing the code to the user
+   2) Change line 25 to your desired email
        
- Now you should be able to have a plant that will check up with you and lets you know if it needs water :)
+Now you should be able to have a plant that will check up with you and lets you know if it needs water :)
